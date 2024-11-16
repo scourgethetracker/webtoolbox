@@ -1,0 +1,5 @@
+.gitattributes !filter !diff
+*.pem filter=git-crypt diff=git-crypt
+qBittorrent.conf filter=git-crypt diff=git-crypt
+AdGuardHome.yaml filter=git-crypt diff=git-crypt
+servers.json filter=git-crypt diff=git-crypt

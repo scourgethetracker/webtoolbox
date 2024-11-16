@@ -1,0 +1,76 @@
+---
+services:
+  adguardhome:
+    image: adguard/adguardhome
+    container_name: adguardhome
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: "512M"
+    volumes:
+      - ${HOME}/workspace/docker/adguardhome/workdir:/opt/adguardhome/work
+      - ${HOME}/workspace/docker/adguardhome/confdir:/opt/adguardhome/conf
+      - ${HOME}/workspace/docker/adguardhome/certs:/opt/adguardhome/certs
+    #network_mode: "container:gluetun"
+    ports:
+      - 53:53
+      - 53:53/udp
+      - 67:67
+      - 67:67/udp
+      - 853:853
+      - 853:853/udp
+      - 80:80
+      - 443:443
+      - 3000:3000
+    sysctls:
+      - net.ipv6.conf.all.disable_ipv6=0
+  gluetun:
+    image: qmcgaw/gluetun
+    container_name: gluetun
+    restart: unless-stopped
+    deploy:
+       resources:
+         limits:
+           cpus: "0.5"
+           memory: "512M"
+    volumes:
+      - ${HOME}/workspace/docker/gluetun:/gluetun
+    environment:
+      - VPN_SERVICE_PROVIDER=${VPN_SERVICE_PROVIDER}
+      - VPN_TYPE=${VPN_TYPE}
+      - WIREGUARD_PRIVATE_KEY=${WIREGUARD_PRIVATE_KEY}
+      - WIREGUARD_ADDRESSES=${WIREGUARD_ADDRESSES}
+      - SERVER_COUNTRIES=${SERVER_COUNTRIES}
+      - SERVER_CITIES=${SERVER_CITIES}
+      - HTTPPROXY=off
+      - SHADOWSOCKS=off
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 6081:6881
+      - 6081:6881/udp
+      - 6011:6011
+    sysctls:
+      - net.ipv6.conf.all.disable_ipv6=0
+  qbittorrent:
+    image: ghcr.io/linuxserver/qbittorrent
+    container_name: qbittorrent
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: "512M"
+    volumes:
+      - ${HOME}/workspace/docker/qbittorrent/config:/config
+      - ${HOME}/workspace/docker/qbittorrent/certs:/certs
+      - ${HOME}/Downloads:/downloads
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Los_Angeles
+      - WEBUI_PORT=6011
+
+    network_mode: "container:gluetun"
