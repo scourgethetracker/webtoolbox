@@ -1,0 +1,180 @@
+#!/usr/bin/env bash
+# Remove debug output
+# set -x
+
+# Configuration
+WATCH_DIR="/Users/m3c3c1d/Downloads"
+SUFFIX=".torrent"
+SSH_KEY="~/.ssh/id_rsa"
+REMOTE_HOST1="b3c3c1d@zeus.bysh.me"
+REMOTE_PATH1="/home/hd27/b3c3c1d/torrents/watch"
+REMOTE_HOST2="u3c3c1d@u3.webtool.click"
+REMOTE_PATH2="/data/torrents/watch"
+RETRY_WAIT=30  # Seconds to wait between retry attempts
+
+# State tracking
+STATE_DIR="$HOME/.torrent-watcher"
+LOG_FILE="$STATE_DIR/watcher.log"
+PROCESSED_FILES="$STATE_DIR/processed_files.log"
+START_TIME="$STATE_DIR/start_time"
+PROCESSED_COUNT="$STATE_DIR/processed_count"
+
+# Create state directory and files
+mkdir -p "$STATE_DIR"
+echo $(date +%s) > "$START_TIME"
+echo "0" > "$PROCESSED_COUNT"
+
+# Logging function
+log_message() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> "$LOG_FILE"
+}
+
+# Function to record processed file
+record_processed_file() {
+    local filename="$1"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $filename" >> "$PROCESSED_FILES"
+    count=$(cat "$PROCESSED_COUNT")
+    echo $((count + 1)) > "$PROCESSED_COUNT"
+}
+
+# Cleanup function to handle script termination
+cleanup() {
+    # Kill any running caffeinate processes started by this script
+    pkill -P $$
+    exit 0
+}
+
+# Set up cleanup trap
+trap cleanup EXIT SIGINT SIGTERM
+
+# Function to copy file with retries
+copy_with_retry() {
+    local file="$1"
+    local host="$2"
+    local path="$3"
+    local filename="$4"
+
+    # Start caffeinate to prevent sleep during copy
+    caffeinate -i -w $$ &
+
+    while true; do
+        if [[ ! -f "$file" ]]; then
+            log_message "File no longer exists: $file"
+            return 1
+        fi
+
+        if scp -i "$SSH_KEY" "$file" "${host}:${path}/${filename}"; then
+            log_message "Successfully copied to ${host}"
+            return 0
+        else
+            log_message "Failed to copy to ${host}, retrying in ${RETRY_WAIT} seconds..."
+            sleep $RETRY_WAIT
+        fi
+    done
+}
+
+# Function to process a single file
+process_file() {
+    local file="$1"
+    local filename=$(basename "$file")
+    
+    # Check if file ends with specified suffix
+    if [[ "$file" != *"$SUFFIX" ]]; then
+        return
+    fi
+    
+    # Check if file is completely written and not being modified
+    if [[ -f "$file" ]] && ! lsof "$file" >/dev/null 2>&1; then
+        log_message "Processing file: $filename"
+        
+        # Copy to both remote locations with retries
+        copy_with_retry "$file" "$REMOTE_HOST1" "$REMOTE_PATH1" "$filename" &
+        local pid1=$!
+        
+        copy_with_retry "$file" "$REMOTE_HOST2" "$REMOTE_PATH2" "$filename" &
+        local pid2=$!
+        
+        # Wait for both copy operations to complete
+        wait $pid1 $pid2
+        
+        # If both copies were successful
+        if [[ $? -eq 0 ]]; then
+            # Record the processed file
+            record_processed_file "$filename"
+            
+            # Start caffeinate for the deletion wait period
+            caffeinate -i -t 100 &
+            local caf_pid=$!
+            
+            # Wait 100 seconds before moving to trash
+            sleep 100
+            
+            # Kill the caffeinate process
+            kill $caf_pid 2>/dev/null
+            
+            # Move file to trash
+            if trash $file; then
+                log_message "Moved original file to trash: $filename"
+            else
+                log_message "Failed to move original file to trash: $filename"
+            fi
+        fi
+    fi
+}
+
+# Function to handle system wake
+handle_wake() {
+    log_message "System woke from sleep, restarting file processing..."
+    # Kill existing fswatch process
+    pkill -P $$ fswatch
+    # Restart the main watch loop
+    start_watching
+}
+
+# Process any existing torrent files
+process_existing_files() {
+    log_message "Checking for existing torrent files..."
+    while IFS= read -r -d '' file; do
+        process_file "$file" &
+    done < <(find "$WATCH_DIR" -name "*$SUFFIX" -print0)
+}
+
+# Function to start the file watch
+start_watching() {
+    # Process existing files first
+    process_existing_files
+    
+    # Then watch for new files
+    log_message "Starting file watch for new torrent files..."
+    fswatch -0 "$WATCH_DIR" | while IFS= read -r -d '' file; do
+        process_file "$file" &
+    done &
+}
+
+# Start Python web server using the virtual environment in background
+source "/Users/m3c3c1d/python_venv/bin/activate"
+python "$(dirname "$0")/torrentmoveweb.py" &
+
+# Set up sleep/wake monitoring
+PIPE="/tmp/sleepwatch_$$"
+mkfifo "$PIPE"
+
+# Start pmset to monitor sleep/wake events
+pmset -g log | grep -i "Sleep.*Maintenance Sleep.*Success" > "$PIPE" &
+pmset -i "Wake.*Wake.*Success" > "$PIPE" &
+
+# Monitor the pipe for sleep/wake events
+while read line; do
+    if [[ $line == *"Wake"* ]]; then
+        handle_wake
+    fi
+done < "$PIPE" &
+
+# Start the initial watch
+start_watching
+
+# Wait indefinitely
+wait
+
+# Cleanup the named pipe on exit
+rm -f "$PIPE"

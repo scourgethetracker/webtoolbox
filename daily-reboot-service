@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily System Reboot
+Documentation=man:systemd.service(5)
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/shutdown -r now
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target

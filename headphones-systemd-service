@@ -1,0 +1,32 @@
+[Unit]
+Description=Headphones - Music Manager
+After=network.target
+Wants=network-online.target
+
+[Service]
+User=u3c3c1d
+Group=u3c3c1d
+Type=simple
+WorkingDirectory=/opt/headphones
+Environment="HP_DATA=/opt/headphones"
+Environment="HP_PIDFILE=/var/run/headphones/headphones.pid"
+ExecStart=/usr/bin/python3 Headphones.py --quiet --nolaunch --host=0.0.0.0 --datadir=/opt/headphones
+Restart=on-failure
+RestartSec=5
+SyslogIdentifier=headphones
+Environment="HP_PORT=8181"
+Environment="HP_HOST=0.0.0.0"
+
+# Hardening options
+ProtectSystem=full
+PrivateTmp=true
+NoNewPrivileges=true
+ProtectHome=true
+ProtectClock=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=Homer Config File Watcher
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'last_sum=""; while true; do if [ -f /tmp/config.yml ]; then current_sum=$(md5sum /tmp/config.yml | cut -d" " -f1); if [ "$current_sum" != "$last_sum" ]; then cp /tmp/config.yml /opt/homer/assets/config.yml && systemctl restart homer && last_sum="$current_sum"; fi; fi; sleep 5; done'
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

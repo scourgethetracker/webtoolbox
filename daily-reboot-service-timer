@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer for Daily System Reboot
+Documentation=man:systemd.timer(5)
+
+[Timer]
+OnCalendar=*-*-* 05:00:00
+AccuracySec=1min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

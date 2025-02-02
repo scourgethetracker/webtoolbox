@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.m3c3c1d.torrentwatcher</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/m3c3c1d/.bin/torrentmove</string>
+    </array>
+    
+    <key>UserName</key>
+    <string>m3c3c1d</string>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/m3c3c1d/python_venv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin</string>
+        <key>HOME</key>
+        <string>/Users/m3c3c1d</string>
+        <key>VIRTUAL_ENV</key>
+        <string>/Users/m3c3c1d/python_venv</string>
+        <key>PYTHONPATH</key>
+        <string>/Users/m3c3c1d/python_venv/lib/python3.9/site-packages</string>
+    </dict>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/m3c3c1d</string>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>KeepAlive</key>
+    <true/>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/m3c3c1d/.torrent-watcher/daemon.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/m3c3c1d/.torrent-watcher/daemon.error.log</string>
+    
+    <key>ProcessType</key>
+    <string>Interactive</string>
+    
+    <key>LowPriorityIO</key>
+    <true/>
+    
+    <key>Nice</key>
+    <integer>1</integer>
+</dict>
+</plist>

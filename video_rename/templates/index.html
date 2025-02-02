@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video File Renamer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <h1>Video File Renamer</h1>
+            <div class="button-group">
+                <button id="refresh-button" onclick="refreshMetadata()" class="secondary-button">
+                    Refresh Metadata
+                </button>
+                <button onclick="replacePeriodsWithSpaces()" class="secondary-button">
+                    Replace Periods with Spaces
+                </button>
+            </div>
+            <div id="file-list"></div>
+            <div id="pattern-input">
+                <input type="text" 
+                       id="pattern" 
+                       placeholder="Enter rename pattern, e.g. {title} ({width}x{height})"
+                       title="Available patterns: {title}, {ext}, {width}, {height}, {codec}">
+                <button onclick="applyPattern()">Apply Pattern</button>
+            </div>
+            <button onclick="saveChanges()" id="save-button">Save Changes</button>
+        </div>
+    </div>
+
+    <!-- Metadata Modal -->
+    <div id="metadata-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>File Metadata</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="metadata-content"></div>
+            </div>
+            <div class="modal-footer">
+                <button onclick="document.getElementById('metadata-modal').style.display='none'" 
+                        class="secondary-button">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

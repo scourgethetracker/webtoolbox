@@ -1,0 +1,31 @@
+[Unit]
+Description=Homer HTTPS Server
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/homer
+
+# Environment setup
+Environment=PORT=443
+Environment=CERT_PATH=/opt/homer/server.pem
+
+# Start the server
+ExecStart=/usr/bin/python3 /opt/homer/server.py --port=${PORT} --cert=${CERT_PATH}
+
+# Security settings
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=full
+ProtectHome=yes
+RestrictAddressFamilies=AF_INET AF_INET6
+RestrictNamespaces=yes
+
+# Restart settings
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

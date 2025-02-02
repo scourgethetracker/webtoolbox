@@ -1,0 +1,122 @@
+filename,file_path,file_size_gb,duration,format,video_codec,width,height,framerate,bitrate,audio_codec,audio_channels,audio_sample_rate
+Akira (1988).mkv,/data/media/Movies/Akira (1988)/Akira (1988).mkv,0.78,7468.587000,"matroska,webm",h264,1280,688,23.976023976023978,897673,aac,2,48000
+Drowning Mona (2000).mp4,/data/media/Movies/Drowning Mona (2000)/Drowning Mona (2000).mp4,1.49,5759.041667,"mov,mp4,m4a,3gp,3g2,mj2",hevc,1920,1040,24.0,2229610,aac,6,48000
+Appleseed (2004).mp4,/data/media/Movies/Appleseed (2004)/Appleseed (2004).mp4,1.55,6328.071750,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1080,23.976023976023978,2105179,aac,2,48000
+Appleseed Alpha (2014).mp4,/data/media/Movies/Appleseed Alpha (2014)/Appleseed Alpha (2014).mp4,1.43,5595.669333,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1088,23.976023976023978,2201996,aac,2,48000
+Appleseed Ex Machina (2007).mp4,/data/media/Movies/Appleseed Ex Machina (2007)/Appleseed Ex Machina (2007).mp4,1.53,6253.247000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1080,23.976023976023978,2104937,aac,2,48000
+Avatar (2009).mkv,/data/media/Movies/Avatar (2009)/Avatar (2009).mkv,35.52,10689.550000,"matroska,webm",h264,1920,1080,23.976023976023978,28542067,dts,6,48000
+Hogfather (2007).avi,/data/media/Movies/The Hogfather (2007)/Hogfather (2007).avi,1.37,11117.360000,avi,mpeg4,640,352,25.0,1058053,mp3,2,48000
+Avatar The Way of Water (2022).mkv,/data/media/Movies/Avatar - The Way of the Water (2022)/Avatar The Way of Water (2022).mkv,35.40,11558.222000,"matroska,webm",hevc,3840,2072,23.976023976023978,26308001,eac3,8,48000
+Avatar The Way of Water (2022).mkv,"/data/media/Movies/Avatar - The Way of the Water (2022)/Sample,Screens/Avatar The Way of Water (2022).mkv",0.22,63.146000,"matroska,webm",hevc,3840,2072,23.976023976023978,29750894,eac3,8,48000
+Injustice (2021).mkv,/data/media/Movies/Injustice (2021)/Injustice (2021).mkv,1.40,4715.508000,"matroska,webm",h264,1920,1080,23.976023976023978,2555492,ac3,6,48000
+Batman The Dark Knight Returns Part-2.mp4,"/data/media/Movies/Batman - The Dark Knight Returns, Part 2 (2013)/Batman The Dark Knight Returns Part-2.mp4",0.59,4549.378167,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,720,23.976023976023978,1105899,aac,2,48000
+Batman Mask of the Phantasm.mp4,/data/media/Movies/Batman Mask of the Phantasm (1993)/Batman Mask of the Phantasm.mp4,1.77,4586.666667,"mov,mp4,m4a,3gp,3g2,mj2",h264,720,576,23.976023976023978,3319392,aac,2,48000
+Batman and Harley Quinn (2017).mkv,/data/media/Movies/Batman and Harley Quinn (2017)/Batman and Harley Quinn (2017).mkv,0.57,4453.006000,"matroska,webm",h264,720,480,23.976023976023978,1093769,aac,2,48000
+Batman Beyond Return Of The Joker (2000).mp4,/data/media/Movies/Batman Beyond - Return of the Joker (2000)/Batman Beyond Return Of The Joker (2000).mp4,1.46,4606.901000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1440,1080,23.976,2729953,aac,6,48000
+Batman The Killing Joke (2016).avi,/data/media/Movies/Batman - The Killing Joke (2016)/Batman The Killing Joke (2016).avi,1.09,4599.310393,avi,mpeg4,720,400,23.975985652770184,2043986,ac3,6,48000
+Batman - Under the Red Hood (2010).avi,/data/media/Movies/Batman - Under the Red Hood (2010)/Batman - Under the Red Hood (2010).avi,0.68,4549.512000,avi,mpeg4,624,352,23.976023976023978,1291262,mp3,2,48000
+Blade Runner (2049).mp4,/data/media/Movies/Blade Runner 2049 (2017)/Blade Runner (2049).mp4,3.12,9807.808000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,800,23.976,2730971,aac,6,48000
+Labyrinth (1986).mkv,/data/media/Movies/Labyrinth (1986)/Labyrinth (1986).mkv,8.74,6063.072000,"matroska,webm",h264,1920,808,23.976023976023978,12381091,ac3,6,48000
+Bride Of Chucky (1998).mp4,/data/media/Movies/Bride of Chucky (1998)/Bride Of Chucky (1998).mp4,2.55,5322.026667,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1040,23.976023976023978,4116127,aac,2,48000
+Seed Of Chucky (2004).mp4,/data/media/Movies/Seed of Chucky (2004)/Seed Of Chucky (2004).mp4,2.51,5235.730700,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1040,23.976023976023978,4116606,aac,2,48000
+Curse Of Chucky Unrated - Horror (2013).mp4,/data/media/Movies/Curse of Chucky (2013)/Curse Of Chucky Unrated - Horror (2013).mp4,2.78,5801.066667,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1080,23.976023976023978,4112968,aac,2,48000
+King of Thorn.mkv,/data/media/Movies/King of Thorn (2009)/King of Thorn.mkv,1.00,6548.575000,"matroska,webm",h264,720,468,23.976023976023978,1307741,aac,2,48000
+Devilman Demon Bird.mp4,/data/media/Movies/Devilman - The Demon Bird (1990)/Devilman Demon Bird.mp4,0.18,3372.512653,"mov,mp4,m4a,3gp,3g2,mj2",h264,480,360,23.976023976023978,454084,aac,2,44100
+Cowboy Bebop The Movie.mkv,/data/media/Movies/Cowboy Bebop - The Movie (2001)/Cowboy Bebop The Movie.mkv,4.48,6911.424000,"matroska,webm",h264,1280,688,23.976023976023978,5565256,vorbis,2,48000
+Deadpool And Wolverine (2024).mkv,/data/media/Movies/Deadpool & Wolverine (2024)/Deadpool And Wolverine (2024).mkv,13.98,7675.401000,"matroska,webm",av1,3840,1608,23.976023976023978,15644912,truehd,8,48000
+Deadpool 2 (2018).mkv,/data/media/Movies/Deadpool 2 (2018)/Deadpool 2 (2018).mkv,4.11,8039.584000,"matroska,webm",h264,1920,804,23.976023976023978,4395894,ac3,6,48000
+Gladiator (2000).mkv,/data/media/Movies/Gladiator (2000)/Gladiator (2000).mkv,29.97,10256.512000,"matroska,webm",hevc,3840,1600,23.976023976023978,25096589,dts,8,48000
+Devilman - The Birth (1987).mp4,/data/media/Movies/Devilman - The Birth (1987)/Devilman - The Birth (1987).mp4,0.16,3085.931973,"mov,mp4,m4a,3gp,3g2,mj2",h264,480,360,23.976023976023978,435282,aac,2,44100
+Evangelion 1.11 - You Are (Not) Alone (2010).mkv,/data/media/Movies/Evangelion 1.11 - You Are (Not) Alone (2010)/Evangelion 1.11 - You Are (Not) Alone (2010).mkv,0.77,6067.669000,"matroska,webm",h264,720,480,23.976023976023978,1094579,aac,2,48000
+Evangelion 2.22 - You Can Advance part1.mkv,/data/media/Movies/Evangelion 2.22 - You Can (Not) Advance (2011)/Evangelion 2.22 - You Can Advance part1.mkv,0.95,6737.764000,"matroska,webm",h264,720,480,23.976023976023978,1208813,aac,2,48000
+Evangelion 2.22 - You Can Advance part2.mkv,/data/media/Movies/Evangelion 2.22 - You Can (Not) Advance (2011)/Evangelion 2.22 - You Can Advance part2.mkv,0.95,6727.755000,"matroska,webm",h264,720,480,23.976023976023978,1209428,aac,2,48000
+Evangelion 3.33 - You Can (Not) Redo (2012).mkv,/data/media/Movies/Evangelion 3.33 - You Can (Not) Redo (2012)/Evangelion 3.33 - You Can (Not) Redo (2012).mkv,0.86,5815.778000,"matroska,webm",h264,720,368,23.976023976023978,1264265,aac,2,48000
+Futurama S05M02 The Beast With a Billion Backs (2008).mp4,/data/media/Movies/Futurama/Futurama S05M02 The Beast With a Billion Backs (2008).mp4,0.17,5322.692367,"mov,mp4,m4a,3gp,3g2,mj2",h264,640,360,23.976023976023978,281896,aac,2,48000
+Futurama S05M01 Bender's Big Score (2007).mp4,/data/media/Movies/Futurama/Futurama S05M01 Bender's Big Score (2007).mp4,0.18,5287.824200,"mov,mp4,m4a,3gp,3g2,mj2",h264,640,360,23.976023976023978,290349,aac,2,48000
+Futurama S05M03 Bender's Game (2008).mp4,/data/media/Movies/Futurama/Futurama S05M03 Bender's Game (2008).mp4,0.16,5247.402667,"mov,mp4,m4a,3gp,3g2,mj2",h264,640,360,23.976023976023978,261530,aac,2,48000
+Futurama S05M04 Into the Wild Green Yonder (2009).mp4,/data/media/Movies/Futurama/Futurama S05M04 Into the Wild Green Yonder (2009).mp4,0.16,5356.522667,"mov,mp4,m4a,3gp,3g2,mj2",h264,640,360,23.976023976023978,252574,aac,2,48000
+Guardians Of The Galaxy Vol  3 (2023).mp4,/data/media/Movies/Guardians Of The Galaxy Vol. 3 (2023)/Guardians Of The Galaxy Vol  3 (2023).mp4,2.77,9002.752000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1012,23.976023976023978,2639467,aac,6,48000
+Heavy Metal (2000).avi,/data/media/Movies/Heavy Metal 2000 (2000)/Heavy Metal (2000).avi,0.68,5065.008000,avi,mpeg4,640,336,25.0,1160629,mp3,2,48000
+Her (2013).mp4,/data/media/Movies/Her (2013)/Her (2013).mp4,1.85,7550.485333,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1040,23.976023976023978,2110087,aac,2,48000
+Hercules (2014).mp4,/data/media/Movies/Hercules (2014)/Hercules (2014).mp4,1.64,6095.798042,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,800,23.976023976023978,2312320,aac,2,48000
+"I, Robot (2004).mkv","/data/media/Movies/I, Robot (2004)/I, Robot (2004).mkv",5.39,6883.284000,"matroska,webm",h264,1920,822,23.976023976023978,6726923,aac,2,48000
+Jupiter Ascending.mkv,/data/media/Movies/Jupiter Ascending (2015)/Jupiter Ascending.mkv,1.20,7654.012000,"matroska,webm",h264,720,360,23.976023976023978,1345402,aac,2,48000
+Justice League - Crisis on Two Earths (2010).mkv,/data/media/Movies/Justice League - Crisis on Two Earths (2010)/Justice League - Crisis on Two Earths (2010).mkv,0.73,4517.546000,"matroska,webm",h264,720,480,23.976023976023978,1383366,aac,2,48000
+Justice League - Doom (2012).mkv,/data/media/Movies/Justice League - Doom (2012)/Justice League - Doom (2012).mkv,0.60,4611.382000,"matroska,webm",h264,720,480,23.976023976023978,1121421,aac,2,48000
+Kikis Delivery Service (1989).mp4,/data/media/Movies/Kikis Delivery Service (1989)/Kikis Delivery Service (1989).mp4,1.17,6182.720000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1631206,ac3,2,48000
+Kingsman - The Golden Circle (2017).mkv,/data/media/Movies/Kingsman - The Golden Circle (2017)/Kingsman - The Golden Circle (2017).mkv,1.55,8460.534000,"matroska,webm",h264,720,360,23.976023976023978,1573378,aac,2,48000
+Kingsman The Secret Service.mp4,/data/media/Movies/Kingsman - The Secret Service (2014)/Kingsman The Secret Service.mp4,0.85,7717.751709,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,536,23.976023976023978,951035,aac,2,48000
+Legend (1985).mp4,/data/media/Movies/Legend (1985)/Legend (1985).mp4,1.70,6807.274667,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,816,23.976023976023978,2140675,aac,2,48000
+My Neighbor Totoro (1988).mp4,/data/media/Movies/My Neighbor Totoro (1988)/My Neighbor Totoro (1988).mp4,1.02,5185.216000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1695266,ac3,2,48000
+Power Rangers (2017).mkv,/data/media/Movies/Power Rangers (2017)/Power Rangers (2017).mkv,1.51,7438.518000,"matroska,webm",h264,720,360,23.976023976023978,1739483,aac,2,48000
+Princess Mononoke (1997).mp4,/data/media/Movies/Princess Mononoke (1997)/Princess Mononoke (1997).mp4,1.14,8002.938000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1227646,ac3,2,48000
+Resident Evil Damnation (2012).mp4,/data/media/Movies/Resident Evil Damnation (2012)/Resident Evil Damnation (2012).mp4,1.40,6002.079417,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1080,23.976023976023978,2001575,aac,2,48000
+Resident Evil Degeneration (2008).mp4,/data/media/Movies/Resident Evil Degeneration (2008)/Resident Evil Degeneration (2008).mp4,0.68,5765.885125,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,720,23.976023976023978,1014088,aac,2,48000
+Rise - Blood Hunter (2007).mp4,/data/media/Movies/Rise - Blood Hunter (2007)/Rise - Blood Hunter (2007).mp4,2.84,7315.136000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,720,23.976023976023978,3340350,aac,6,48000
+Spirited Away (2001).mp4,/data/media/Movies/Spirited Away (2001)/Spirited Away (2001).mp4,1.03,7472.314000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1188576,ac3,2,48000
+Suicide Squad (2016).mkv,/data/media/Movies/Suicide_Squad (2016)/Suicide Squad (2016).mkv,1.13,7371.403000,"matroska,webm",h264,718,360,23.976023976023978,1319224,aac,2,48000
+Ninja Scroll.avi,/data/media/Movies/Ninja Scroll (1993)/Ninja Scroll.avi,0.88,5478.240000,avi,mpeg4,800,608,25.0,1375989,mp3,2,48000
+Superman Batman - Apocalypse (2010).mkv,/data/media/Movies/Superman Batman - Apocalypse (2010)/Superman Batman - Apocalypse (2010).mkv,0.80,4687.082000,"matroska,webm",h264,720,480,23.976023976023978,1462033,aac,2,48000
+Tales from Earthsea.mp4,/data/media/Movies/Tales from Earthsea (2006)/Tales from Earthsea.mp4,1.04,6932.675750,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1290145,ac3,2,48000
+The Dark Crystal.mp4,/data/media/Movies/The Dark Crystal (1982)/The Dark Crystal.mp4,1.65,5587.712000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,816,23.976023976023978,2539786,aac,2,48000
+"Dark Tower, The (2017).mkv","/data/media/Movies/The Dark Tower (2017)/Dark Tower, The (2017).mkv",0.92,5684.054000,"matroska,webm",h264,720,360,23.976023976023978,1394374,aac,2,48000
+The Happening (2008).mkv,/data/media/Movies/The Happening (2008)/The Happening (2008).mkv,1.34,5422.091000,"matroska,webm",h264,718,472,23.976023976023978,2123242,aac,2,48000
+The Lion King (1994).mkv,/data/media/Movies/The Lion King (1994)/The Lion King (1994).mkv,0.98,5302.137000,"matroska,webm",h264,720,480,23.976023976023978,1584075,aac,2,48000
+The Lord of the Rings (1978).mkv,/data/media/Movies/The Lord of the Rings (1978)/The Lord of the Rings (1978).mkv,2.72,7996.685000,"matroska,webm",h264,718,480,23.976023976023978,2924540,aac,2,48000
+The Void (2016).mkv,/data/media/Movies/The Void (2016)/The Void (2016).mkv,0.67,5421.849000,"matroska,webm",h264,720,362,23.976023976023978,1067941,aac,2,48000
+V For Vendetta (2006).mp4,/data/media/Movies/V for Vendetta (2005)/V For Vendetta (2006).mp4,1.65,7952.462948,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,800,23.976023976023978,1786327,aac,2,44100
+Valerian and the City of a Thousand Planets (2017).mkv,/data/media/Movies/Valerian and the City of a Thousand Planets (2017)/Valerian and the City of a Thousand Planets (2017).mkv,1.54,8464.530000,"matroska,webm",h264,720,360,23.976023976023978,1567194,aac,2,48000
+Warcraft.mkv,/data/media/Movies/Warcraft (2016)/Warcraft.mkv,3.22,7386.963000,"matroska,webm",h264,1916,784,23.976023976023978,3740724,ac3,2,48000
+Warlock.mp4,/data/media/Movies/Warlock (1989)/Warlock.mp4,1.13,6190.976458,"mov,mp4,m4a,3gp,3g2,mj2",h264,720,388,23.976023976023978,1563819,aac,2,48000
+What Dreams May Come (1998).mkv,/data/media/Movies/What Dreams May Come (1998)/What Dreams May Come (1998).mkv,1.16,6805.756000,"matroska,webm",h264,716,364,23.976023976023978,1466682,aac,2,48000
+Ghost in the Shell SAC 2045.mkv,/data/media/Movies/Ghost in the Shell SAC 2045 - Sustainable War (2021)/Ghost in the Shell SAC 2045.mkv,3.51,7225.664000,"matroska,webm",h264,1920,1080,23.976023976023978,4177063,eac3,6,48000
+Beetlejuice Beetlejuice t01.mkv,/data/media/Movies/Beetlejuice Beetlejuice (2024)/Beetlejuice Beetlejuice t01.mkv,67.34,6279.940000,"matroska,webm",hevc,3840,2160,23.976023976023978,92104576,truehd,8,48000
+Heretic (2024).mkv,/data/media/Movies/Heretic (2024)/Heretic (2024).mkv,19.67,6668.203000,"matroska,webm",hevc,3836,1604,23.976023976023978,25340991,eac3,6,48000
+The Others (2001).mkv,/data/media/Movies/The Others (2001)/The Others (2001).mkv,4.53,6263.209000,"matroska,webm",h264,1920,1080,24.0,6208811,ac3,6,48000
+John Wick - Chapter 2 t00.mkv,/data/media/Movies/John Wick - Chapter 2 (2017)/John Wick - Chapter 2 t00.mkv,14.71,7342.376000,"matroska,webm",h264,1920,1080,23.976023976023978,17208154,ac3,6,48000
+John Wick - Chapter 3.mkv,/data/media/Movies/John Wick - Chapter 3 - Parabellum (2019)/John Wick - Chapter 3.mkv,61.15,7930.464000,"matroska,webm",hevc,3840,2160,23.976023976023978,66233848,ac3,2,48000
+John Wick - Chapter 4.mkv,/data/media/Movies/John Wick - Chapter 4 (2023)/John Wick - Chapter 4.mkv,75.69,10158.148000,"matroska,webm",hevc,3840,2160,23.976023976023978,64003628,truehd,8,48000
+John Wick.mkv,/data/media/Movies/John Wick (2014)/John Wick.mkv,46.37,6071.774000,"matroska,webm",hevc,3840,2160,23.976023976023978,65596222,truehd,8,48000
+The Batman vs  Dracula (2005).mp4,/data/media/Movies/The Batman vs. Dracula (2005)/The Batman vs  Dracula (2005).mp4,1.30,5014.259250,"mov,mp4,m4a,3gp,3g2,mj2",hevc,1920,1080,23.976023976023978,2229346,aac,2,48000
+Blood - The Last Vampire (2009).mkv,/data/media/Movies/Blood - The Last Vampire (2009)/Blood - The Last Vampire (2009).mkv,18.89,5316.946000,"matroska,webm",h264,1920,1080,23.976023976023978,30525326,pcm_s16le,6,48000
+Batman Returns (1992).mkv,/data/media/Movies/Batman Returns (1992)/Batman Returns (1992).mkv,18.08,7587.041000,"matroska,webm",hevc,3840,2072,23.976023976023978,20475207,truehd,8,48000
+Dracula Dead And Loving It (1995).mkv,/data/media/Movies/Dracula - Dead and Loving It (1995)/Dracula Dead And Loving It (1995).mkv,22.83,5391.210000,"matroska,webm",h264,1920,1080,24.0,36375278,flac,2,48000
+High Anxiety (1977).mp4,/data/media/Movies/High Anxiety (1977)/High Anxiety (1977).mp4,1.47,5645.642000,"mov,mp4,m4a,3gp,3g2,mj2",hevc,1920,1036,23.976023976023978,2231145,aac,6,48000
+Blazing Saddles.mkv,/data/media/Movies/Blazing Saddles (1974)/Blazing Saddles.mkv,45.04,5569.376000,"matroska,webm",hevc,3840,2160,23.976023976023978,69465103,truehd,8,48000
+The Lord of the Rings - The War of the Rohirrim (2024).mkv,/data/media/Movies/The Lord of The Rings - The War Of The Rohirrim (2024)/The Lord of the Rings - The War of the Rohirrim (2024).mkv,4.43,8054.432000,"matroska,webm",h264,1920,800,23.976023976023978,4729779,eac3,6,48000
+Ink (2009).mkv,/data/media/Movies/Ink (2009)/Ink (2009).mkv,6.56,6374.400000,"matroska,webm",h264,1920,1080,23.976023976023978,8841355,ac3,2,48000
+Gladiator II (2024).mkv,/data/media/Movies/Gladiator II (2024)/Gladiator II (2024).mkv,9.36,9102.208000,"matroska,webm",h264,1920,800,23.976023976023978,8833144,eac3,6,48000
+Venom - The Last Dance (2024).mkv,/data/media/Movies/Venom - The Last Dance (2024)/Venom - The Last Dance (2024).mkv,5.74,6535.712000,"matroska,webm",h264,1920,800,23.976023976023978,7543652,eac3,6,48000
+Kraven - The Hunter (2024).mp4,/data/media/Movies/Kraven the Hunter (2024)/Kraven - The Hunter (2024).mp4,5.31,7630.416667,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1080,24.0,5974275,ac3,6,48000
+Venom (2018).mkv,/data/media/Movies/Venom (2018)/Venom (2018).mkv,19.69,6726.679000,"matroska,webm",hevc,3840,2160,23.976023976023978,25148026,eac3,6,48000
+Venom - Let There Be Carnage (2021).mkv,/data/media/Movies/Venom - Let There Be Carnage (2021)/Venom - Let There Be Carnage (2021).mkv,16.97,5836.623000,"matroska,webm",hevc,3840,2160,23.976023976023978,24973683,eac3,6,48000
+Appleseed 0 (1988).mkv,/data/media/Movies/Appleseed (1988)/Appleseed 0 (1988).mkv,1.71,4048.348000,"matroska,webm",hevc,1440,1080,23.976023976023978,3638334,opus,2,48000
+Castle Of Cagliostro (1979).mp4,/data/media/Movies/Castle Of Cagliostro (1979)/Castle Of Cagliostro (1979).mp4,1.00,5969.086667,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1439159,ac3,2,48000
+Nausicaa of the Valley of the Wind (1984).mp4,/data/media/Movies/Nausicaa of the Valley of the Wind (1984)/Nausicaa of the Valley of the Wind (1984).mp4,1.04,7022.074000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1272418,ac3,2,48000
+Castle In The Sky (1986).mp4,/data/media/Movies/Castle In The Sky (1986)/Castle In The Sky (1986).mp4,1.13,7473.658000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1294327,ac3,2,48000
+Grave of the Fireflies (1988).mp4,/data/media/Movies/Grave of the Fireflies (1988)/Grave of the Fireflies (1988).mp4,1.06,5312.598958,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1706727,ac3,2,48000
+Only Yesterday (1991).mp4,/data/media/Movies/Only Yesterday (1991)/Only Yesterday (1991).mp4,1.30,7126.272000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,720,23.976023976023978,1570696,ac3,2,48000
+Heavy Metal (1981).mp4,/data/media/Movies/Heavy Metal (1981)/Heavy Metal (1981).mp4,0.68,5420.540125,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,688,23.976023976023978,1083821,aac,2,48000
+Porco Rosso (1992).mp4,/data/media/Movies/Porco Rosso (1992)/Porco Rosso (1992).mp4,1.06,5599.936000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1623643,ac3,2,48000
+Ocean Waves (1993).mp4,/data/media/Movies/Ocean Waves (1994)/Ocean Waves (1993).mp4,0.84,4356.224000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,684,23.976023976023978,1647918,ac3,2,48000
+Pom Poko (1994).mp4,/data/media/Movies/Pom Poko (1994)/Pom Poko (1994).mp4,1.15,7151.394000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1378607,ac3,2,48000
+Whisper Of The Heart (1995).mp4,/data/media/Movies/Whisper of the Heart (1995)/Whisper Of The Heart (1995).mp4,1.04,6666.682000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1338054,ac3,2,48000
+My Neighbors the Yamadas (1999).mp4,/data/media/Movies/My Neighbors the Yamadas (1999)/My Neighbors the Yamadas (1999).mp4,0.89,6220.297417,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1227963,ac3,2,48000
+Ponyo (2008).mp4,/data/media/Movies/Ponyo (2008)/Ponyo (2008).mp4,0.94,6175.226000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1313336,ac3,2,48000
+The Cat Returns (2002).mp4,/data/media/Movies/The Cat Returns (2002)/The Cat Returns (2002).mp4,0.86,4504.416000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1632764,ac3,2,48000
+The Secret World of Arrietty (2010).mp4,/data/media/Movies/The Secret World of Arrietty (2010)/The Secret World of Arrietty (2010).mp4,1.00,5700.800000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1502410,ac3,2,48000
+From Up On Poppy Hill (2011).mp4,/data/media/Movies/From Up on Poppy Hill (2011)/From Up On Poppy Hill (2011).mp4,1.00,5490.651833,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1570871,ac3,2,48000
+The Wind Rises (2013).mp4,/data/media/Movies/The Wind Rises (2013)/The Wind Rises (2013).mp4,1.05,7591.125208,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1187987,ac3,1,48000
+The Tale of the Princess Kaguya (2013).mp4,/data/media/Movies/The Tale of The Princess Kaguya (2013)/The Tale of the Princess Kaguya (2013).mp4,1.13,8233.402000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1181556,ac3,2,48000
+When Marnie Was There (2014).mp4,/data/media/Movies/When Marnie Was There (2014)/When Marnie Was There (2014).mp4,0.97,6156.642500,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,720,23.976023976023978,1350900,ac3,2,48000
+The Red Turtle (2016).mp4,/data/media/Movies/The Red Turtle (2016)/The Red Turtle (2016).mp4,0.86,4836.352000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,24.0,1528443,ac3,2,48000
+Earwig and the Witch (2020).mp4,/data/media/Movies/Earwig and the Witch (2021)/Earwig and the Witch (2020).mp4,0.95,4964.928000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1649764,ac3,2,48000
+I Saw the TV Glow (2024).mkv,/data/media/Movies/I Saw the TV Glow (2024)/I Saw the TV Glow (2024).mkv,30.39,5994.059000,"matroska,webm",h264,1920,1080,23.976023976023978,43555570,truehd,8,48000
+Howls Moving Castle (2004).mp4,/data/media/Movies/Howl's Moving Castle (2004)/Howls Moving Castle (2004).mp4,1.04,7149.058583,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,692,23.976023976023978,1249937,ac3,2,48000
+Blade Runner (1982).mp4,/data/media/Movies/Blade Runner - The Final Cut (2007)/Blade Runner (1982).mp4,2.07,7056.810667,"mov,mp4,m4a,3gp,3g2,mj2",h264,1854,800,23.976023976023978,2524783,aac,6,48000
+Superman Batman - Public Enemies (2009).avi,/data/media/Movies/Superman Batman - Public Enemies (2009)/Superman Batman - Public Enemies (2009).avi,0.69,4005.093878,avi,mpeg4,704,384,23.976023976023978,1469707,mp3,2,44100
+Childs Play (1988).mp4,/data/media/Movies/Child's Play (1988)/Childs Play (1988).mp4,2.50,5227.904000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1040,23.976023976023978,4113308,aac,2,48000
+Childs Play 2 (1990).mp4,/data/media/Movies/Child's Play 2 (1990)/Childs Play 2 (1990).mp4,2.41,5036.928000,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1040,23.976023976023978,4112018,aac,2,48000
+Childs Play 3 Look Whos Stalking (1991).mp4,/data/media/Movies/Child's Play 3 (1991)/Childs Play 3 Look Whos Stalking (1991).mp4,2.57,5372.032700,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1040,23.976023976023978,4113681,aac,2,48000
+Cult Of Chucky (2017).mp4,/data/media/Movies/Cult of Chucky (2017)/Cult Of Chucky (2017).mp4,2.61,5449.026700,"mov,mp4,m4a,3gp,3g2,mj2",h264,1920,1080,23.976023976023978,4114633,aac,2,48000
+Batman The Dark Knight Returns Part-1.mp4,"/data/media/Movies/Batman - The Dark Knight Returns, Part 1 (2012)/Batman The Dark Knight Returns Part-1.mp4",0.49,4582.698667,"mov,mp4,m4a,3gp,3g2,mj2",h264,1280,720,23.976023976023978,915359,aac,2,48000
